@@ -115,6 +115,9 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
   transition: all 0.5s;
   background: #fff;
   z-index: 997;
@@ -126,7 +129,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #header.header-scrolled {
   border-color: #fff;
-  box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
+  box-shadow: 0px 0px 52px rgb(0, 64, 182);
+  /* box-shadow: 0px 2px 15px rgba(16, 83, 131, 0.08); */
 }
 
 #header .logo {
@@ -847,7 +851,7 @@ section {
 .testimonials .testimonial-item p {
   /* font-style: italic; */
   font-weight: 800;
-  margin: 0 15px 15px 15px;
+  margin: 10px 15px 15px 15px;
   padding: 20px;
   font-size: large;
   background: #f3f9fd;
