@@ -394,7 +394,6 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
   height: 100vh;
   position: relative;
   background: url("../img/hero-bg.jpg") top center;
@@ -536,7 +535,11 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
+  border-radius: 32px;
   padding: 80px 0;
+  margin-left: 2%;
+  margin-right: 2%;
+  box-shadow: 0px 0px 52px rgb(0, 64, 182);
   overflow: hidden;
 }
 
@@ -571,7 +574,6 @@ section {
   font-weight: 600;
   font-size: 26px;
 }
-
 .about .content ul {
   list-style: none;
   padding: 0;
